@@ -1,7 +1,6 @@
 {
   "name": "my-store",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
@@ -9,7 +8,7 @@
     "lint": "eslint"
   },
   "keywords": [],
-  "author": "",
+  "author": "Muffin Please <benjamintec3455@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^7.32.0",
@@ -27,5 +26,14 @@
   },
   "engines": {
     "node": "14.x"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/platzi/curso-nodejs-postgres.git"
+  },
+  "bugs": {
+    "url": "https://github.com/platzi/curso-nodejs-postgres/issues"
+  },
+  "homepage": "https://github.com/platzi/curso-nodejs-postgres#readme",
+  "description": ""
 }
