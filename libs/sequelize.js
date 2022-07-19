@@ -14,6 +14,6 @@ const sequelize = new Sequelize(URI, {
 
 setupModels(sequelize);
 
-sequelize.sync();//To create tables
+// sequelize.sync();//To create tables ONLY TO DEV
 
 module.exports = sequelize;
