@@ -17,6 +17,7 @@ function setupModels(sequelize){
   //Association
   User.associate(sequelize.models);
   Customer.associate(sequelize.models);
+  Product.associate(sequelize.models);
   Category.associate(sequelize.models);
   Order.associate(sequelize.models);
   // OrderProduct.associate(sequelize.models);
