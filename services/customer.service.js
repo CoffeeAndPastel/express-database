@@ -5,7 +5,6 @@ class CustomerService {
 
   constructor() {}
 
-  //New
   async find() {
     const rta = await models.Customer.findAll({
       include: ['user']
@@ -20,13 +19,8 @@ class CustomerService {
     }
     return user;
   }
-//New
+  
   async create(data) {
-    // const newUser = await models.User.create(data.user);
-    // const newCustomer = await models.Customer.create({
-      //   ...data,
-      //   userId: newUser.id
-      // });
     const newCustomer = await models.Customer.create(data, {
       include: ['user']
     })

@@ -32,7 +32,6 @@ const ProductSchema = {
 		field: 'created_at',
 		defaultValue: Sequelize.NOW,
 	},
-  //New
   categoryId: {
     field: 'category_id',
     allowNull: false,
