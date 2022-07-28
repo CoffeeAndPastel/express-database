@@ -1,6 +1,6 @@
 'use strict';
 
-const { DataTypes, Sequelize } = require("sequelize/types");
+const { DataTypes, Sequelize } = require("sequelize");
 const { CUSTOMER_TABLE } = require("../models/customer.model");
 const { ORDER_TABLE } = require("../models/order.model");
 
@@ -29,7 +29,8 @@ module.exports = {
         type: DataTypes.DATE,
         field: 'created_at',
         defaultValue: Sequelize.NOW,
-      },});
+      },
+    });
   },
 
   async down (queryInterface) {
